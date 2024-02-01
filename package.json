@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint:check": "eslint ./src",
+    "lint:fix": "eslint --fix ./src",
     "prettier:format": "prettier ./src --write",
     "prettier:check": "prettier ./src --check"
   },
